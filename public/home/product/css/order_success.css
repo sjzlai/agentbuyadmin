@@ -1,0 +1,106 @@
+#order_success .content{
+    width:65%;
+    margin:0 auto;
+    min-width: 1200px;
+    margin-bottom:150px;
+}
+#order_success .content .order_num {
+    margin:40px 0;
+}
+#order_success .content .order_num>div {
+    display: inline-block;
+}
+.vcontent {
+    padding-left:40px;
+    position: relative;
+    top:30px;
+}
+.torecord {
+    font-size: 16px;
+    letter-spacing:1px;
+}
+.torecord>a {
+    color:#30D7A1;
+    font-weight: bold;
+}
+#order_success .content .order_num .vnum {
+    font-size: 18px;
+    font-weight: 600;
+}
+#order_success .content .order_num .vimg>img {
+    height:114px;
+    width: 127px;
+}
+#order_success .content .order_infor {
+    width:100%;
+    padding-bottom:50px;
+    border:1px solid #F0F0F0;
+}
+.content .order_infor .order_bar {
+    height:50px;
+    width:100%;
+    line-height: 50px;
+}
+.bone  {
+    width:40%;
+    padding-left:3%;
+}
+.btwo {
+    width:19%;
+    text-align: center;
+}
+.bthree,.bfour,.bfive,.bsix {
+    width:9%;
+    text-align: center;
+}
+.order_describe .bthree,.order_describe .bfour,.order_describe .bfive,.order_describe .bsix {
+    table-layout:fixed;
+    word-break:break-all;
+    overflow:hidden; 
+}
+.order_describe .bthree,.order_describe .bsix {
+    color:#F78B00
+}
+.content .order_infor .order_bar>div,.content .order_infor .order_describe>div, .order_describe>div:first-child>div {
+    display: inline-block;
+    font-size:16px;
+}
+.content  .order_describe {
+    margin-bottom:40px;
+    background-color: #F5F5F5;
+    padding:30px 0 30px;
+}
+.content  .order_describe>div:first-child>div:first-child img {
+    width:80px;
+    height: 80px;
+    border:1px solid #D6D6D6;
+}
+.content  .order_describe>div:first-child>div:nth-child(2) {
+    font-size:14px;
+    vertical-align:middle;
+    margin-left:20px;
+}
+.content  .order_describe>div:first-child>div:nth-child(2)>div:first-child {
+    font-size: 16px;
+}
+.content  .order_describe>div:first-child>div:nth-child(2) div:last-child {
+    margin-top:20px;
+}
+.content  .order_describe>div:first-child>div:nth-child(2) div:last-child span {
+    color:#A4A4A4;
+}
+.content  .order_list>div {
+    font-size: 16px;
+    line-height: 50px;
+}
+.content  .order_list>div>span:first-child{
+    display: inline-block;
+    width:150px;
+    text-align:right;
+    padding-right:15px;
+}
+.content  .order_list>div>span:last-child {
+    color:#A4A4A4;
+}
+
+
